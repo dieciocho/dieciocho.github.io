@@ -1,0 +1,36 @@
+```{r setup, include=FALSE}
+# LEAVE THIS CODE CHUNK AS-IS
+# This code chunk sets the global codechunk options for this file/chapter
+knitr::opts_chunk$set(error = TRUE, include=TRUE, echo=TRUE, message=TRUE, warning=TRUE)
+# For BP, telling R to not stop on error (error=TRUE option above) and changing errors to display with yellow font on crimson background
+knitr::knit_hooks$set(error = function(x, options) { 
+  paste(c('\n\n:::{style="color:Yellow; background-color: Crimson;"}',
+        gsub('^## Error', '**ERROR:**', x),
+        ':::'), collapse = '\n')
+})
+```
+
+
+**Datasets used in this chapter:**
+```{r}
+library(tidyverse) #includes dplyr, ggplot2, and other common packages
+library(tidycensus)
+library(stargazer)
+library(leaflet)
+```
+
+**Packages used in this web:**
+```{r}
+## Load all packages used in this chapter
+library(tidyverse) #includes dplyr, ggplot2, and other common packages
+
+# Load the leaflet library
+library(leaflet)
+```
+
+```{r}
+# Create a leaflet map with default map tile using addTiles()
+leaflet() %>%
+    addTiles()
+
+```
