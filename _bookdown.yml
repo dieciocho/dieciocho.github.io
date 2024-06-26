@@ -1,7 +1,7 @@
-book_filename: "PP"
+book_filename: "Worldwide News"
 output_dir: docs
 delete_merged_file: true
 new_session: false
-edit: https://github.com/econ380w24-PP/PP-JebLizzyMinhRodrigo-w5Hy2WiU3C5t/edit/main/%s
-view: https://github.com/econ380w24-PP/PP-JebLizzyMinhRodrigo-w5Hy2WiU3C5t/blob/main/%s
-history: https://github.com/econ380w24-PP/PP-JebLizzyMinhRodrigo-w5Hy2WiU3C5t/commits/main/%s
+edit: https://github.com/dieciocho/dieciocho.github.io/edit/main/%s
+view: https://github.com/dieciocho/dieciocho.github.io/blob/main/%s
+history: https://github.com/dieciocho/dieciocho.github.io/commits/main/%s
